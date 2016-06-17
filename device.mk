@@ -216,6 +216,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     sensors.msm8952
 
+# Snapdragon Camera
+PRODUCT_PACKAGES += \
+    Snap
+
+# Snap Config
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.camera.cpp.duplication=false
+
 # Sound trigger
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/sound_trigger_mixer_paths.xml:system/etc/sound_trigger_mixer_paths.xml \
