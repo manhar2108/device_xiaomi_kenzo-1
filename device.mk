@@ -190,6 +190,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     power.msm8952
 
+# Snap Camera
+PRODUCT_PACKAGES += \
+  Snap
+
 # Qualcomm dependencies
 PRODUCT_PACKAGES += \
     libtinyxml \

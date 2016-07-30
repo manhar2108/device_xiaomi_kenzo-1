@@ -41,3 +41,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_FINGERPRINT=Xiaomi/kenzo/kenzo:6.0.1/MMB29M/6.4.20:user/release-keys \
     PRIVATE_BUILD_DESC="kenzo-user 6.0.1 MMB29M 6.4.20 release-keys"
 endif
+
+PRODUCT_BUILD_PROP_OVERRIDES += DEVICE_MAINTAINERS="Ashish Arora, Adarsh-MR"
+
+# Build as Official
+CITRUS_RELEASE := true
