@@ -20,7 +20,7 @@
    "branch": "cm-13.0"
  },
   {
-   "repository": "CyanogenMod/android_external_external_libnfnetlink",
+   "repository": "CyanogenMod/android_external_libnfnetlink",
    "target_path": "external/libnfnetlink",
    "branch": "cm-13.0"
  },
