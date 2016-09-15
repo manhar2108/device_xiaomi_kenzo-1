@@ -42,7 +42,10 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="kenzo-user 6.0.1 MMB29M 6.7.21 release-keys"
 endif
 
-PRODUCT_BUILD_PROP_OVERRIDES += DEVICE_MAINTAINERS="Ashish Arora, Adarsh-MR"
+PRODUCT_BUILD_PROP_OVERRIDES += DEVICE_MAINTAINERS="Ashish Arora"
+
+# Ship with PA Browser!
+SHIP_WITH_PA_BROWSER := true
 
 # Build as Official
 CITRUS_RELEASE := true

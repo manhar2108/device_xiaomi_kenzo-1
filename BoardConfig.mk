@@ -61,16 +61,9 @@ TARGET_KERNEL_CONFIG := cyanogenmod_kenzo_defconfig
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 
 # Kernel Toolchain
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/aarch64/aarch64-linux-android-4.9-kernel-linaro/bin
 KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-android-
-TARGET_GCC_VERSION_ARM64 := 5.x-kernel-linaro
-
-# Optimizations
-STRICT_ALIASING := false
-CLANG_O3 := false
-ENABLE_GCCONLY := true
-GRAPHITE_OPTS := false
-USE_PIPE := true
+TARGET_GCC_VERSION_ARM64 := 4.9
+TARGET_GCC_VERSION_ARM64_ROM := 4.9
 
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
