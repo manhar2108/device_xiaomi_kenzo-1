@@ -1,10 +1,37 @@
 [
- {
-   "repository": "android_device_qcom_common",
-   "target_path": "device/qcom/common"
+  {
+    "repository": "CyanogenMod/hardware_cyanogen",
+    "target_path": "hardware/cyanogen",
+    "branch": "staging/cm-14.0"
  },
- {
-   "repository": "android_kernel_xiaomi_msm8956",
-   "target_path": "kernel/xiaomi/msm8956"
+  {
+   "repository": "CyanogenMod/device_qcom_common",
+   "target_path": "device/qcom/common",
+   "branch": "staging/cm-14.0"
+ },
+  {
+   "repository": "CyanogenMod/android_external_libnetfilter_conntrack",
+   "target_path": "external/libnetfilter_conntrack",
+   "branch": "staging/cm-14.0"
+ },
+  {
+   "repository": "CyanogenMod/android_external_libnfnetlink",
+   "target_path": "external/libnfnetlink",
+   "branch": "staging/cm-14.0"
+ },
+  {
+   "repository": "CyanogenMod/android_hardware_qcom_audio",
+   "target_path": "hardware/qcom/audio-caf/msm8952",
+   "branch": "staging/cm-14.0-caf-8952"
+ },
+  {
+   "repository": "CyanogenMod/android_hardware_qcom_media",
+   "target_path": "hardware/qcom/media-caf/msm8952",
+   "branch": "staging/cm-14.0-caf-8952"
+ },
+  {
+   "repository": "CyanogenMod/android_hardware_qcom_display",
+   "target_path": "hardware/qcom/display-caf/msm8952",
+   "branch": "staging/cm-14.0-caf-8952"
  }
 ]
