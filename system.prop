@@ -75,6 +75,11 @@ persist.rild.nitz_short_ons_3=
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
 
+# ADB
+persist.service.adb.enable=1                                                    
+persist.service.debuggable=1
+persist.sys.usb.config=mtp,adb
+
 # Radio
 DEVICE_PROVISIONED=1
 ril.subscription.types=RUIM
