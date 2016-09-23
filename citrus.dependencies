@@ -1,11 +1,16 @@
 [
   {
-    "repository": "CyanogenMod/hardware_cyanogen",
+   "repository": "Adarsh-MR/android_kernel_xiaomi_msm8956",
+   "target_path": "kernel/xiaomi/msm8956",
+   "branch": "cm-14.0"
+ },
+  {
+    "repository": "CyanogenMod/android_hardware_cyanogen",
     "target_path": "hardware/cyanogen",
     "branch": "staging/cm-14.0"
  },
   {
-   "repository": "CyanogenMod/device_qcom_common",
+   "repository": "CyanogenMod/android_device_qcom_common",
    "target_path": "device/qcom/common",
    "branch": "staging/cm-14.0"
  },
